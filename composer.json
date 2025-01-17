@@ -1,0 +1,19 @@
+{
+    "name": "wilfr/learning-po-ophp",
+    "description": "Aprendiendo namespaces y Autoload",
+    "autoload": {
+        "psr-4": {
+            "Wilfr\\LearningPoOphp\\": "src/",
+            "App\\" : "./clases"
+        }
+    },
+    "authors": [
+        {
+            "name": "Wilfredery",
+            "email": "wilfredery30@gmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^6.10"
+    }
+}
